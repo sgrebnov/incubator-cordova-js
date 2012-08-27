@@ -92,6 +92,7 @@ task('build', ['clean', 'hint', 'update-version'], function () {
         packager.generate("qnx",commitId);
         packager.generate("ios",commitId);
         packager.generate("wp7",commitId);
+        packager.generate("wp8",commitId);
         packager.generate("android",commitId);
         packager.generate("bada",commitId);
         packager.generate("tizen",commitId);
